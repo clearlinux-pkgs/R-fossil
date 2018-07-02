@@ -4,7 +4,7 @@
 #
 Name     : R-fossil
 Version  : 0.3.7
-Release  : 1
+Release  : 2
 URL      : https://cran.r-project.org/src/contrib/fossil_0.3.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fossil_0.3.7.tar.gz
 Summary  : Palaeoecological and Palaeogeographical Analysis Tools
