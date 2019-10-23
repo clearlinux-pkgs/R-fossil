@@ -4,7 +4,7 @@
 #
 Name     : R-fossil
 Version  : 0.3.7
-Release  : 15
+Release  : 16
 URL      : https://cran.r-project.org/src/contrib/fossil_0.3.7.tar.gz
 Source0  : https://cran.r-project.org/src/contrib/fossil_0.3.7.tar.gz
 Summary  : Palaeoecological and Palaeogeographical Analysis Tools
@@ -17,6 +17,7 @@ BuildRequires : R-maps
 BuildRequires : R-shapefiles
 BuildRequires : R-sp
 BuildRequires : buildreq-R
+BuildRequires : util-linux
 
 %description
 and geographical data sets, both ancient and modern. The
@@ -33,10 +34,10 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1569357535
+export SOURCE_DATE_EPOCH=1571833161
 
 %install
-export SOURCE_DATE_EPOCH=1569357535
+export SOURCE_DATE_EPOCH=1571833161
 rm -rf %{buildroot}
 export LANG=C.UTF-8
 export CFLAGS="$CFLAGS -O3 -flto -fno-semantic-interposition "
